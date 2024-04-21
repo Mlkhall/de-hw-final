@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "de-hw-2"
+version = "0.1.0"
+description = ""
+authors = ["Чумаков Михаил Дмитриевич <chumakov-md@zvuk.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.13"
+pandas = "^2.2.1"
+apache-airflow = "^2.9.0"
+tqdm = "^4.66.2"
+pyarrow = "^15.0.2"
+black = "^24.4.0"
+isort = "^5.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
